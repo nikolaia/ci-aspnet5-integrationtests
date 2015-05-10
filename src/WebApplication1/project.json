@@ -1,14 +1,12 @@
 {
   "webroot": "wwwroot",
-  "version": "1.0.0-*",
+  "version": "1.0.0",
 
   "dependencies": {
     "Microsoft.AspNet.Mvc": "6.0.0-beta4",
     "Microsoft.AspNet.Server.IIS": "1.0.0-beta4",
     "Microsoft.AspNet.Server.WebListener": "1.0.0-beta4",
-    "Microsoft.AspNet.StaticFiles": "1.0.0-beta4",
-    "Microsoft.Framework.TestAdapter": "1.0.0-beta4-11314",
-    "Microsoft.Framework.TestHost": "1.0.0-beta4-11314"
+    "Microsoft.AspNet.StaticFiles": "1.0.0-beta4"
   },
 
   "commands": {
@@ -16,7 +14,7 @@
   },
 
   "frameworks": {
-    //"dnx451": { },
+    "dnx451": { },
     "dnxcore50": { }
   },
 
